@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Books Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading"> Books Library</h1>
+    <div class="gridContainer">
+        <input type="text" id="bookInput" placeholder="Enter Book Name" />
+        <input type="text" id="authorInput" placeholder="Enter Author Name" />
+        <input type="date" id="publishDate" />
+        <button id="button" onclick="addBook()">Add Book</button>
+    </div>
+    <div>
+        <input type="text" id="myInput" placeholder="Search...." onkeyup="searchFun()">
+    </div>
+    
+    <div class="colm">
+        <div class="booksH">
+            <span class="booksHeading">Books</span>
+        </div>
+        <div class="bookContainer"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
